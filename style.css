@@ -159,7 +159,7 @@ img{
 }
 
 span{
-    color: #d01212;
+    color: orangered;
 }
 
 section{
@@ -493,4 +493,57 @@ section{
     background-color:aqua;
     color: black;
     transition: all 1s;
+}
+
+/* for form style: */
+
+.login-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
+  
+    padding:1.5rem;
+    border-radius: 10px;
+    width:50%;
+    margin:4rem auto;
+
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+ 
+}
+
+
+.login-container input{
+    margin-bottom:1rem;
+    padding:.5rem;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+}
+
+.login-container form input:nth-child(4){
+ width:100%;
+ border-radius: 10px 20px 10px 20px;
+
+ 
+}
+
+.login-container form input:nth-child(4):hover{
+    background: linear-gradient(to bottom, pink , red);
+    cursor: pointer;
+    transition: background 2s;
+   
+}
+
+/* .imoji-pos{
+    position:relative;
+    left:1rem;
+
+} */
+
+.login-bg-clr{
+    background: linear-gradient(to right,red,green);
 }
